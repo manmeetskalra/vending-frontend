@@ -6,7 +6,7 @@ import { AppContext } from "../App";
 
 const Home = () => {
   const [inventory, setInventory] = useState<InventoryItem[]>([]);
-  const { cart, setCart } = useContext(AppContext);
+  const { cart: _cart, setCart } = useContext(AppContext);
   const [updateInventory, setUpdateInventory] = useState(false);
 
   useEffect(() => {

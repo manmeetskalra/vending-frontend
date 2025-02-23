@@ -1,5 +1,5 @@
 import { Route, Routes, Link } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Buy from "./pages/Buy";
 import { createContext, useState } from "react";
 import { Cart } from "./types";
