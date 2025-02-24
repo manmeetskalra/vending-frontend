@@ -9,7 +9,7 @@ const Buy = () => {
   const handleBuy = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/inventory/buy",
+        "http://13.201.21.241/api/inventory/buy",
         {
           name,
           quantity: Number(quantity),

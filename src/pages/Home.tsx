@@ -11,7 +11,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/inventory")
+      .get("http://13.201.21.241/api/inventory")
       .then((response) => setInventory(response.data))
       .catch((error) => console.error("Error fetching inventory:", error));
   }, [updateInventory]);
