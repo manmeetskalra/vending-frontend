@@ -28,7 +28,7 @@ const BuyDialog: React.FC<BuyDialogProps> = ({
     //send api req to decrement the item in DB with the cart.selectedQty
     try {
       const response = await axios.post(
-        "http://13.201.21.241/api/inventory/buy",
+        "https://api.codescopedigital.com/api/inventory/buy",
         {
           name: cart.item?.name,
           quantity: cart.selectedQty,
